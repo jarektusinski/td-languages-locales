@@ -1,0 +1,55 @@
+import Aymara from './languages/aymara';
+import Guarani from './languages/guarani';
+import Mapudungun from './languages/mapudungun';
+import Portuguese from './languages/portuguese';
+import Quechua from './languages/quechua';
+import Spanish from './languages/spanish';
+
+const AYMARA_LANGUAGES = [...Object.values(Aymara)] as const;
+const GUARANI_LANGUAGES = [...Object.values(Guarani)] as const;
+const MAPUDUNGUN_LANGUAGES = [...Object.values(Mapudungun)] as const;
+const PORTUGUESE_LANGUAGES = [...Object.values(Portuguese)] as const;
+const QUECHUA_LANGUAGES = [...Object.values(Quechua)] as const;
+const SPANISH_LANGUAGES = [...Object.values(Spanish)] as const;
+const SOUTH_AMERICA_LANGUAGES = [
+    ...AYMARA_LANGUAGES,
+    ...GUARANI_LANGUAGES,
+    ...MAPUDUNGUN_LANGUAGES,
+    ...PORTUGUESE_LANGUAGES,
+    ...QUECHUA_LANGUAGES,
+    ...SPANISH_LANGUAGES
+] as const;
+
+type SouthamericaAymaraLanguage = (typeof AYMARA_LANGUAGES)[number];
+type SouthamericaGuaraniLanguage = (typeof GUARANI_LANGUAGES)[number];
+type SouthamericaMapudungunLanguage = (typeof MAPUDUNGUN_LANGUAGES)[number];
+type SouthamericaPortugueseLanguage = (typeof PORTUGUESE_LANGUAGES)[number];
+type SouthamericaQuechuaLanguage = (typeof QUECHUA_LANGUAGES)[number];
+type SouthamericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
+type SouthamericaLanguage = (typeof SOUTH_AMERICA_LANGUAGES)[number];
+
+export type {
+  SouthamericaAymaraLanguage,
+  SouthamericaGuaraniLanguage,
+  SouthamericaMapudungunLanguage,
+  SouthamericaPortugueseLanguage,
+  SouthamericaQuechuaLanguage,
+  SouthamericaSpanishLanguage,
+  SouthamericaLanguage,
+};
+
+export default {
+  ...Aymara,
+  ...Guarani,
+  ...Mapudungun,
+  ...Portuguese,
+  ...Quechua,
+  ...Spanish,
+  AYMARA_LANGUAGES,
+  GUARANI_LANGUAGES,
+  MAPUDUNGUN_LANGUAGES,
+  PORTUGUESE_LANGUAGES,
+  QUECHUA_LANGUAGES,
+  SPANISH_LANGUAGES,
+  SOUTH_AMERICA_LANGUAGES,
+};
