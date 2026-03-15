@@ -5,6 +5,6 @@ const KOREAN_SOUTH_KOREA = 'ko-KR' as const;
 const KOREAN_NORTH_KOREA = 'ko-KP' as const;
 
 export default {
-    KOREAN_SOUTH_KOREA,
-    KOREAN_NORTH_KOREA,
+  KOREAN_SOUTH_KOREA,
+  KOREAN_NORTH_KOREA,
 };

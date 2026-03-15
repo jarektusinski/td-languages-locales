@@ -2,5 +2,5 @@
 const STANDARD = 'ga-IE' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

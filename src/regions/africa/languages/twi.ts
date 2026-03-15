@@ -2,5 +2,5 @@
 const STANDARD = 'tw-GH' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

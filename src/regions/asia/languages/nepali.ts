@@ -5,6 +5,6 @@ const NEPALI_NEPAL = 'ne-NP' as const;
 const NEPALI_INDIA = 'ne-IN' as const;
 
 export default {
-    NEPALI_NEPAL,
-    NEPALI_INDIA,
+  NEPALI_NEPAL,
+  NEPALI_INDIA,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'hmn-LA' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

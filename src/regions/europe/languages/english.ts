@@ -11,8 +11,8 @@ const MALTESE = 'en-MT' as const;
 const CYPRUS = 'en-CY' as const;
 
 export default {
-    BRITISH,
-    IRISH,
-    MALTESE,
-    CYPRUS,
+  BRITISH,
+  IRISH,
+  MALTESE,
+  CYPRUS,
 };

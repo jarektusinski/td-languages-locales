@@ -2,5 +2,5 @@
 const STANDARD = 'ay-BO' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

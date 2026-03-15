@@ -2,5 +2,5 @@
 const STANDARD = 'mer-KE' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

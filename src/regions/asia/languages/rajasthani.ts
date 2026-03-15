@@ -2,5 +2,5 @@
 const STANDARD = 'raj-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

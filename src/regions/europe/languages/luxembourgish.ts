@@ -2,5 +2,5 @@
 const STANDARD = 'lb-LU' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'mi-NZ' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

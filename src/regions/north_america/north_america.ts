@@ -28,54 +28,54 @@ const SPANISH_LANGUAGES = [...Object.values(Spanish)] as const;
 const YUCATECMAYA_LANGUAGES = [...Object.values(YucatecMaya)] as const;
 const ZAPOTEC_LANGUAGES = [...Object.values(Zapotec)] as const;
 const NORTH_AMERICA_LANGUAGES = [
-    ...CREE_LANGUAGES,
-    ...ENGLISH_LANGUAGES,
-    ...FRENCH_LANGUAGES,
-    ...HAITIANCREOLE_LANGUAGES,
-    ...HAWAIIAN_LANGUAGES,
-    ...INUKTITUT_LANGUAGES,
-    ...MAYA_LANGUAGES,
-    ...MIXTEC_LANGUAGES,
-    ...NAHUATL_LANGUAGES,
-    ...NAVAJO_LANGUAGES,
-    ...OJIBWE_LANGUAGES,
-    ...SPANISH_LANGUAGES,
-    ...YUCATECMAYA_LANGUAGES,
-    ...ZAPOTEC_LANGUAGES
+  ...CREE_LANGUAGES,
+  ...ENGLISH_LANGUAGES,
+  ...FRENCH_LANGUAGES,
+  ...HAITIANCREOLE_LANGUAGES,
+  ...HAWAIIAN_LANGUAGES,
+  ...INUKTITUT_LANGUAGES,
+  ...MAYA_LANGUAGES,
+  ...MIXTEC_LANGUAGES,
+  ...NAHUATL_LANGUAGES,
+  ...NAVAJO_LANGUAGES,
+  ...OJIBWE_LANGUAGES,
+  ...SPANISH_LANGUAGES,
+  ...YUCATECMAYA_LANGUAGES,
+  ...ZAPOTEC_LANGUAGES,
 ] as const;
 
-type NorthamericaCreeLanguage = (typeof CREE_LANGUAGES)[number];
-type NorthamericaEnglishLanguage = (typeof ENGLISH_LANGUAGES)[number];
-type NorthamericaFrenchLanguage = (typeof FRENCH_LANGUAGES)[number];
-type NorthamericaHaitianCreoleLanguage = (typeof HAITIANCREOLE_LANGUAGES)[number];
-type NorthamericaHawaiianLanguage = (typeof HAWAIIAN_LANGUAGES)[number];
-type NorthamericaInuktitutLanguage = (typeof INUKTITUT_LANGUAGES)[number];
-type NorthamericaMayaLanguage = (typeof MAYA_LANGUAGES)[number];
-type NorthamericaMixtecLanguage = (typeof MIXTEC_LANGUAGES)[number];
-type NorthamericaNahuatlLanguage = (typeof NAHUATL_LANGUAGES)[number];
-type NorthamericaNavajoLanguage = (typeof NAVAJO_LANGUAGES)[number];
-type NorthamericaOjibweLanguage = (typeof OJIBWE_LANGUAGES)[number];
-type NorthamericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
-type NorthamericaYucatecMayaLanguage = (typeof YUCATECMAYA_LANGUAGES)[number];
-type NorthamericaZapotecLanguage = (typeof ZAPOTEC_LANGUAGES)[number];
-type NorthamericaLanguage = (typeof NORTH_AMERICA_LANGUAGES)[number];
+type NorthAmericaCreeLanguage = (typeof CREE_LANGUAGES)[number];
+type NorthAmericaEnglishLanguage = (typeof ENGLISH_LANGUAGES)[number];
+type NorthAmericaFrenchLanguage = (typeof FRENCH_LANGUAGES)[number];
+type NorthAmericaHaitianCreoleLanguage = (typeof HAITIANCREOLE_LANGUAGES)[number];
+type NorthAmericaHawaiianLanguage = (typeof HAWAIIAN_LANGUAGES)[number];
+type NorthAmericaInuktitutLanguage = (typeof INUKTITUT_LANGUAGES)[number];
+type NorthAmericaMayaLanguage = (typeof MAYA_LANGUAGES)[number];
+type NorthAmericaMixtecLanguage = (typeof MIXTEC_LANGUAGES)[number];
+type NorthAmericaNahuatlLanguage = (typeof NAHUATL_LANGUAGES)[number];
+type NorthAmericaNavajoLanguage = (typeof NAVAJO_LANGUAGES)[number];
+type NorthAmericaOjibweLanguage = (typeof OJIBWE_LANGUAGES)[number];
+type NorthAmericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
+type NorthAmericaYucatecMayaLanguage = (typeof YUCATECMAYA_LANGUAGES)[number];
+type NorthAmericaZapotecLanguage = (typeof ZAPOTEC_LANGUAGES)[number];
+type NorthAmericaLanguage = (typeof NORTH_AMERICA_LANGUAGES)[number];
 
 export type {
-  NorthamericaCreeLanguage,
-  NorthamericaEnglishLanguage,
-  NorthamericaFrenchLanguage,
-  NorthamericaHaitianCreoleLanguage,
-  NorthamericaHawaiianLanguage,
-  NorthamericaInuktitutLanguage,
-  NorthamericaMayaLanguage,
-  NorthamericaMixtecLanguage,
-  NorthamericaNahuatlLanguage,
-  NorthamericaNavajoLanguage,
-  NorthamericaOjibweLanguage,
-  NorthamericaSpanishLanguage,
-  NorthamericaYucatecMayaLanguage,
-  NorthamericaZapotecLanguage,
-  NorthamericaLanguage,
+  NorthAmericaCreeLanguage,
+  NorthAmericaEnglishLanguage,
+  NorthAmericaFrenchLanguage,
+  NorthAmericaHaitianCreoleLanguage,
+  NorthAmericaHawaiianLanguage,
+  NorthAmericaInuktitutLanguage,
+  NorthAmericaMayaLanguage,
+  NorthAmericaMixtecLanguage,
+  NorthAmericaNahuatlLanguage,
+  NorthAmericaNavajoLanguage,
+  NorthAmericaOjibweLanguage,
+  NorthAmericaSpanishLanguage,
+  NorthAmericaYucatecMayaLanguage,
+  NorthAmericaZapotecLanguage,
+  NorthAmericaLanguage,
 };
 
 export default {

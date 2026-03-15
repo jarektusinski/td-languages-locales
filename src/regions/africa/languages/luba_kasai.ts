@@ -2,5 +2,5 @@
 const STANDARD = 'lu-CD' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

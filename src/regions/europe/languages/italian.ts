@@ -8,7 +8,7 @@ const ITALIAN_SWITZERLAND = 'it-CH' as const;
 const ITALIAN_SAN_MARINO = 'it-SM' as const;
 
 export default {
-    ITALIAN_ITALY,
-    ITALIAN_SWITZERLAND,
-    ITALIAN_SAN_MARINO,
+  ITALIAN_ITALY,
+  ITALIAN_SWITZERLAND,
+  ITALIAN_SAN_MARINO,
 };

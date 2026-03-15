@@ -2,5 +2,5 @@
 const STANDARD = 'co-FR' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

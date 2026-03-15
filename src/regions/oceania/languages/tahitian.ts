@@ -2,5 +2,5 @@
 const STANDARD = 'ty-PF' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

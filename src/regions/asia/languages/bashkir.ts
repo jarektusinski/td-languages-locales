@@ -2,5 +2,5 @@
 const STANDARD = 'ba-RU' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

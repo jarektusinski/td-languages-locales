@@ -5,6 +5,6 @@ const ROMANIAN_ROMANIA = 'ro-RO' as const;
 const ROMANIAN_MOLDOVA = 'ro-MD' as const;
 
 export default {
-    ROMANIAN_ROMANIA,
-    ROMANIAN_MOLDOVA,
+  ROMANIAN_ROMANIA,
+  ROMANIAN_MOLDOVA,
 };

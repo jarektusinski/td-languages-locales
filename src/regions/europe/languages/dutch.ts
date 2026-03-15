@@ -5,6 +5,6 @@ const DUTCH_NETHERLANDS = 'nl-NL' as const;
 const DUTCH_BELGIUM = 'nl-BE' as const;
 
 export default {
-    DUTCH_NETHERLANDS,
-    DUTCH_BELGIUM,
+  DUTCH_NETHERLANDS,
+  DUTCH_BELGIUM,
 };

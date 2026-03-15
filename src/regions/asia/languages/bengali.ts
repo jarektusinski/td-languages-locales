@@ -5,6 +5,6 @@ const BENGALI_BANGLADESH = 'bn-BD' as const;
 const BENGALI_INDIA = 'bn-IN' as const;
 
 export default {
-    BENGALI_BANGLADESH,
-    BENGALI_INDIA,
+  BENGALI_BANGLADESH,
+  BENGALI_INDIA,
 };

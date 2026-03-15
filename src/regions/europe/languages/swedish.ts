@@ -5,6 +5,6 @@ const SWEDISH_SWEDEN = 'sv-SE' as const;
 const SWEDISH_FINLAND = 'sv-FI' as const;
 
 export default {
-    SWEDISH_SWEDEN,
-    SWEDISH_FINLAND,
+  SWEDISH_SWEDEN,
+  SWEDISH_FINLAND,
 };

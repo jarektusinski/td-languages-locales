@@ -2,5 +2,5 @@
 const STANDARD = 'as-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

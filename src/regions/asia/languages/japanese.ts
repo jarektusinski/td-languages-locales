@@ -2,5 +2,5 @@
 const STANDARD = 'ja-JP' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

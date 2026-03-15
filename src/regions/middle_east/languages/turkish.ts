@@ -5,6 +5,6 @@ const TURKISH_TURKEY = 'tr-TR' as const;
 const TURKISH_CYPRUS = 'tr-CY' as const;
 
 export default {
-    TURKISH_TURKEY,
-    TURKISH_CYPRUS,
+  TURKISH_TURKEY,
+  TURKISH_CYPRUS,
 };

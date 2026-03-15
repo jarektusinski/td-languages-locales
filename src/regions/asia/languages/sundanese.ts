@@ -2,5 +2,5 @@
 const STANDARD = 'su-ID' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

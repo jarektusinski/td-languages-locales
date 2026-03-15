@@ -2,5 +2,5 @@
 const STANDARD = 'hu-HU' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

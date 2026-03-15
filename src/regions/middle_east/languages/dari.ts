@@ -2,5 +2,5 @@
 const DARI_AFGHANISTAN = 'prs-AF' as const;
 
 export default {
-    DARI_AFGHANISTAN,
+  DARI_AFGHANISTAN,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'ln-CD' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

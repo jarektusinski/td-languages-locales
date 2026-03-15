@@ -2,5 +2,5 @@
 const STANDARD = 'bho-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

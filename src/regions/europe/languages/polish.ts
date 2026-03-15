@@ -2,5 +2,5 @@
 const STANDARD = 'pl-PL' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

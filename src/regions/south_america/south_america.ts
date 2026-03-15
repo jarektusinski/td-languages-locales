@@ -12,30 +12,30 @@ const PORTUGUESE_LANGUAGES = [...Object.values(Portuguese)] as const;
 const QUECHUA_LANGUAGES = [...Object.values(Quechua)] as const;
 const SPANISH_LANGUAGES = [...Object.values(Spanish)] as const;
 const SOUTH_AMERICA_LANGUAGES = [
-    ...AYMARA_LANGUAGES,
-    ...GUARANI_LANGUAGES,
-    ...MAPUDUNGUN_LANGUAGES,
-    ...PORTUGUESE_LANGUAGES,
-    ...QUECHUA_LANGUAGES,
-    ...SPANISH_LANGUAGES
+  ...AYMARA_LANGUAGES,
+  ...GUARANI_LANGUAGES,
+  ...MAPUDUNGUN_LANGUAGES,
+  ...PORTUGUESE_LANGUAGES,
+  ...QUECHUA_LANGUAGES,
+  ...SPANISH_LANGUAGES,
 ] as const;
 
-type SouthamericaAymaraLanguage = (typeof AYMARA_LANGUAGES)[number];
-type SouthamericaGuaraniLanguage = (typeof GUARANI_LANGUAGES)[number];
-type SouthamericaMapudungunLanguage = (typeof MAPUDUNGUN_LANGUAGES)[number];
-type SouthamericaPortugueseLanguage = (typeof PORTUGUESE_LANGUAGES)[number];
-type SouthamericaQuechuaLanguage = (typeof QUECHUA_LANGUAGES)[number];
-type SouthamericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
-type SouthamericaLanguage = (typeof SOUTH_AMERICA_LANGUAGES)[number];
+type SouthAmericaAymaraLanguage = (typeof AYMARA_LANGUAGES)[number];
+type SouthAmericaGuaraniLanguage = (typeof GUARANI_LANGUAGES)[number];
+type SouthAmericaMapudungunLanguage = (typeof MAPUDUNGUN_LANGUAGES)[number];
+type SouthAmericaPortugueseLanguage = (typeof PORTUGUESE_LANGUAGES)[number];
+type SouthAmericaQuechuaLanguage = (typeof QUECHUA_LANGUAGES)[number];
+type SouthAmericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
+type SouthAmericaLanguage = (typeof SOUTH_AMERICA_LANGUAGES)[number];
 
 export type {
-  SouthamericaAymaraLanguage,
-  SouthamericaGuaraniLanguage,
-  SouthamericaMapudungunLanguage,
-  SouthamericaPortugueseLanguage,
-  SouthamericaQuechuaLanguage,
-  SouthamericaSpanishLanguage,
-  SouthamericaLanguage,
+  SouthAmericaAymaraLanguage,
+  SouthAmericaGuaraniLanguage,
+  SouthAmericaMapudungunLanguage,
+  SouthAmericaPortugueseLanguage,
+  SouthAmericaQuechuaLanguage,
+  SouthAmericaSpanishLanguage,
+  SouthAmericaLanguage,
 };
 
 export default {

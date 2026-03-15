@@ -5,6 +5,6 @@ const MANDARIN_CHINA = 'cmn-Hans-CN' as const;
 const MANDARIN_TAIWAN = 'cmn-Hant-TW' as const;
 
 export default {
-    MANDARIN_CHINA,
-    MANDARIN_TAIWAN,
+  MANDARIN_CHINA,
+  MANDARIN_TAIWAN,
 };

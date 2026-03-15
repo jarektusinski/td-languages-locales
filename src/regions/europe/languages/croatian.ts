@@ -5,6 +5,6 @@ const CROATIAN_CROATIA = 'hr-HR' as const;
 const CROATIAN_BOSNIA = 'hr-BA' as const;
 
 export default {
-    CROATIAN_CROATIA,
-    CROATIAN_BOSNIA,
+  CROATIAN_CROATIA,
+  CROATIAN_BOSNIA,
 };

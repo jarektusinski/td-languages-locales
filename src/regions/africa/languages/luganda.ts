@@ -2,5 +2,5 @@
 const STANDARD = 'lg-UG' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

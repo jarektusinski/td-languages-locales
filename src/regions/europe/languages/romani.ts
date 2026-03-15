@@ -2,5 +2,5 @@
 const ROMANI_EUROPE = 'rom-001' as const;
 
 export default {
-    ROMANI_EUROPE,
+  ROMANI_EUROPE,
 };

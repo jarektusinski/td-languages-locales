@@ -5,6 +5,6 @@ const SINDHI_PAKISTAN = 'sd-Arab-PK' as const;
 const SINDHI_INDIA = 'sd-Deva-IN' as const;
 
 export default {
-    SINDHI_PAKISTAN,
-    SINDHI_INDIA,
+  SINDHI_PAKISTAN,
+  SINDHI_INDIA,
 };

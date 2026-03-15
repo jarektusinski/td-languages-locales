@@ -5,6 +5,6 @@ const NORWEGIAN_BOKMAL = 'nb-NO' as const;
 const NORWEGIAN_NYNORSK = 'nn-NO' as const;
 
 export default {
-    NORWEGIAN_BOKMAL,
-    NORWEGIAN_NYNORSK,
+  NORWEGIAN_BOKMAL,
+  NORWEGIAN_NYNORSK,
 };

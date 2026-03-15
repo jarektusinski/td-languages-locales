@@ -2,5 +2,5 @@
 const STANDARD = 'mg-MG' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

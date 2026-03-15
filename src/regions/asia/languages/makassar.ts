@@ -2,5 +2,5 @@
 const STANDARD = 'mak-ID' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'gon-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

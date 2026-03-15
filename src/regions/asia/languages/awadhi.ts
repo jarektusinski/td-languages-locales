@@ -2,5 +2,5 @@
 const STANDARD = 'awa-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

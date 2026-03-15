@@ -2,5 +2,5 @@
 const STANDARD = 'luo-KE' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -5,6 +5,6 @@ const KAZAKH_CYRILLIC = 'kk-Cyrl-KZ' as const;
 const KAZAKH_LATIN = 'kk-Latn-KZ' as const;
 
 export default {
-    KAZAKH_CYRILLIC,
-    KAZAKH_LATIN,
+  KAZAKH_CYRILLIC,
+  KAZAKH_LATIN,
 };

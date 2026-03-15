@@ -2,5 +2,5 @@
 const STANDARD = 'oj-CA' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

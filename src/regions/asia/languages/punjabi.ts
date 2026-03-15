@@ -5,6 +5,6 @@ const PUNJABI_INDIA = 'pa-IN' as const;
 const PUNJABI_PAKISTAN = 'pa-PK' as const;
 
 export default {
-    PUNJABI_INDIA,
-    PUNJABI_PAKISTAN,
+  PUNJABI_INDIA,
+  PUNJABI_PAKISTAN,
 };

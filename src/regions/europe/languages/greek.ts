@@ -5,6 +5,6 @@ const GREEK_GREECE = 'el-GR' as const;
 const GREEK_CYPRUS = 'el-CY' as const;
 
 export default {
-    GREEK_GREECE,
-    GREEK_CYPRUS,
+  GREEK_GREECE,
+  GREEK_CYPRUS,
 };

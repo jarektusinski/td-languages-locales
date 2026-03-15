@@ -2,5 +2,5 @@
 const STANDARD = 'ilo-PH' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

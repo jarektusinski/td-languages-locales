@@ -8,7 +8,7 @@ const SORANI_IRAQ = 'ckb-IQ' as const;
 const SORANI_IRAN = 'ckb-IR' as const;
 
 export default {
-    KURMANJI_TURKEY,
-    SORANI_IRAQ,
-    SORANI_IRAN,
+  KURMANJI_TURKEY,
+  SORANI_IRAQ,
+  SORANI_IRAN,
 };

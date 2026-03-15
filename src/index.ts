@@ -1,3 +1,4 @@
+import Regionals from './regionals';
 import Africa from './regions/africa';
 import Asia from './regions/asia';
 import Europe from './regions/europe';
@@ -241,32 +242,32 @@ export type {
 } from './regions/europe/europe';
 
 export type {
-  MiddleeastArabicLanguage,
-  MiddleeastDariLanguage,
-  MiddleeastHebrewLanguage,
-  MiddleeastKurdishLanguage,
-  MiddleeastPashtoLanguage,
-  MiddleeastPersianLanguage,
-  MiddleeastTurkishLanguage,
-  MiddleeastLanguage,
+  MiddleEastArabicLanguage,
+  MiddleEastDariLanguage,
+  MiddleEastHebrewLanguage,
+  MiddleEastKurdishLanguage,
+  MiddleEastPashtoLanguage,
+  MiddleEastPersianLanguage,
+  MiddleEastTurkishLanguage,
+  MiddleEastLanguage,
 } from './regions/middle_east/middle_east';
 
 export type {
-  NorthamericaCreeLanguage,
-  NorthamericaEnglishLanguage,
-  NorthamericaFrenchLanguage,
-  NorthamericaHaitianCreoleLanguage,
-  NorthamericaHawaiianLanguage,
-  NorthamericaInuktitutLanguage,
-  NorthamericaMayaLanguage,
-  NorthamericaMixtecLanguage,
-  NorthamericaNahuatlLanguage,
-  NorthamericaNavajoLanguage,
-  NorthamericaOjibweLanguage,
-  NorthamericaSpanishLanguage,
-  NorthamericaYucatecMayaLanguage,
-  NorthamericaZapotecLanguage,
-  NorthamericaLanguage,
+  NorthAmericaCreeLanguage,
+  NorthAmericaEnglishLanguage,
+  NorthAmericaFrenchLanguage,
+  NorthAmericaHaitianCreoleLanguage,
+  NorthAmericaHawaiianLanguage,
+  NorthAmericaInuktitutLanguage,
+  NorthAmericaMayaLanguage,
+  NorthAmericaMixtecLanguage,
+  NorthAmericaNahuatlLanguage,
+  NorthAmericaNavajoLanguage,
+  NorthAmericaOjibweLanguage,
+  NorthAmericaSpanishLanguage,
+  NorthAmericaYucatecMayaLanguage,
+  NorthAmericaZapotecLanguage,
+  NorthAmericaLanguage,
 } from './regions/north_america/north_america';
 
 export type {
@@ -281,16 +282,25 @@ export type {
 } from './regions/oceania/oceania';
 
 export type {
-  SouthamericaAymaraLanguage,
-  SouthamericaGuaraniLanguage,
-  SouthamericaMapudungunLanguage,
-  SouthamericaPortugueseLanguage,
-  SouthamericaQuechuaLanguage,
-  SouthamericaSpanishLanguage,
-  SouthamericaLanguage,
+  SouthAmericaAymaraLanguage,
+  SouthAmericaGuaraniLanguage,
+  SouthAmericaMapudungunLanguage,
+  SouthAmericaPortugueseLanguage,
+  SouthAmericaQuechuaLanguage,
+  SouthAmericaSpanishLanguage,
+  SouthAmericaLanguage,
 } from './regions/south_america/south_america';
 
+export type {
+  ArabicLanguage,
+  PortugueseLanguage,
+  EnglishLanguage,
+  FrenchLanguage,
+  SpanishLanguage,
+} from './regionals';
+
 export default {
+  ...Regionals,
   ...Africa,
   ...Asia,
   ...Europe,

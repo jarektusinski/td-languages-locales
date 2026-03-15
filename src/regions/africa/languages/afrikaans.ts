@@ -5,6 +5,6 @@ const AFRIKAANS_SOUTH_AFRICA = 'af-ZA' as const;
 const AFRIKAANS_NAMIBIA = 'af-NA' as const;
 
 export default {
-    AFRIKAANS_SOUTH_AFRICA,
-    AFRIKAANS_NAMIBIA,
+  AFRIKAANS_SOUTH_AFRICA,
+  AFRIKAANS_NAMIBIA,
 };

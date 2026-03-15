@@ -2,5 +2,5 @@
 const STANDARD = 'ug-CN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

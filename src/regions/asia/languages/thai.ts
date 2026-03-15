@@ -2,5 +2,5 @@
 const STANDARD = 'th-TH' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

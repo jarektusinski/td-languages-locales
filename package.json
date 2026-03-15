@@ -1,7 +1,7 @@
 {
   "name": "td-languages-locales",
   "version": "1.0.0",
-  "description": "TODO: Add description",
+  "description": "A TypeScript locale registry providing region-organized constant language locale mappings and type-safe exports.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

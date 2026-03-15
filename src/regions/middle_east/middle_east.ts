@@ -14,33 +14,33 @@ const PASHTO_LANGUAGES = [...Object.values(Pashto)] as const;
 const PERSIAN_LANGUAGES = [...Object.values(Persian)] as const;
 const TURKISH_LANGUAGES = [...Object.values(Turkish)] as const;
 const MIDDLE_EAST_LANGUAGES = [
-    ...ARABIC_LANGUAGES,
-    ...DARI_LANGUAGES,
-    ...HEBREW_LANGUAGES,
-    ...KURDISH_LANGUAGES,
-    ...PASHTO_LANGUAGES,
-    ...PERSIAN_LANGUAGES,
-    ...TURKISH_LANGUAGES
+  ...ARABIC_LANGUAGES,
+  ...DARI_LANGUAGES,
+  ...HEBREW_LANGUAGES,
+  ...KURDISH_LANGUAGES,
+  ...PASHTO_LANGUAGES,
+  ...PERSIAN_LANGUAGES,
+  ...TURKISH_LANGUAGES,
 ] as const;
 
-type MiddleeastArabicLanguage = (typeof ARABIC_LANGUAGES)[number];
-type MiddleeastDariLanguage = (typeof DARI_LANGUAGES)[number];
-type MiddleeastHebrewLanguage = (typeof HEBREW_LANGUAGES)[number];
-type MiddleeastKurdishLanguage = (typeof KURDISH_LANGUAGES)[number];
-type MiddleeastPashtoLanguage = (typeof PASHTO_LANGUAGES)[number];
-type MiddleeastPersianLanguage = (typeof PERSIAN_LANGUAGES)[number];
-type MiddleeastTurkishLanguage = (typeof TURKISH_LANGUAGES)[number];
-type MiddleeastLanguage = (typeof MIDDLE_EAST_LANGUAGES)[number];
+type MiddleEastArabicLanguage = (typeof ARABIC_LANGUAGES)[number];
+type MiddleEastDariLanguage = (typeof DARI_LANGUAGES)[number];
+type MiddleEastHebrewLanguage = (typeof HEBREW_LANGUAGES)[number];
+type MiddleEastKurdishLanguage = (typeof KURDISH_LANGUAGES)[number];
+type MiddleEastPashtoLanguage = (typeof PASHTO_LANGUAGES)[number];
+type MiddleEastPersianLanguage = (typeof PERSIAN_LANGUAGES)[number];
+type MiddleEastTurkishLanguage = (typeof TURKISH_LANGUAGES)[number];
+type MiddleEastLanguage = (typeof MIDDLE_EAST_LANGUAGES)[number];
 
 export type {
-  MiddleeastArabicLanguage,
-  MiddleeastDariLanguage,
-  MiddleeastHebrewLanguage,
-  MiddleeastKurdishLanguage,
-  MiddleeastPashtoLanguage,
-  MiddleeastPersianLanguage,
-  MiddleeastTurkishLanguage,
-  MiddleeastLanguage,
+  MiddleEastArabicLanguage,
+  MiddleEastDariLanguage,
+  MiddleEastHebrewLanguage,
+  MiddleEastKurdishLanguage,
+  MiddleEastPashtoLanguage,
+  MiddleEastPersianLanguage,
+  MiddleEastTurkishLanguage,
+  MiddleEastLanguage,
 };
 
 export default {

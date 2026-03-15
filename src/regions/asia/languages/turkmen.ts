@@ -2,5 +2,5 @@
 const STANDARD = 'tk-TM' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

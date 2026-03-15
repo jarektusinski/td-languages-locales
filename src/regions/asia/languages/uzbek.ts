@@ -5,6 +5,6 @@ const UZBEK_LATIN = 'uz-Latn-UZ' as const;
 const UZBEK_CYRILLIC = 'uz-Cyrl-UZ' as const;
 
 export default {
-    UZBEK_LATIN,
-    UZBEK_CYRILLIC,
+  UZBEK_LATIN,
+  UZBEK_CYRILLIC,
 };

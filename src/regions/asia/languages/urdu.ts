@@ -5,6 +5,6 @@ const URDU_PAKISTAN = 'ur-PK' as const;
 const URDU_INDIA = 'ur-IN' as const;
 
 export default {
-    URDU_PAKISTAN,
-    URDU_INDIA,
+  URDU_PAKISTAN,
+  URDU_INDIA,
 };

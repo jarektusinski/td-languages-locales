@@ -2,5 +2,5 @@
 const STANDARD = 'mnw-MM' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

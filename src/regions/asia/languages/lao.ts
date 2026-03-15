@@ -2,5 +2,5 @@
 const STANDARD = 'lo-LA' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

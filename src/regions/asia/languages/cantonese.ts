@@ -5,6 +5,6 @@ const CANTONESE_HONG_KONG = 'yue-Hant-HK' as const;
 const CANTONESE_MACAU = 'yue-Hant-MO' as const;
 
 export default {
-    CANTONESE_HONG_KONG,
-    CANTONESE_MACAU,
+  CANTONESE_HONG_KONG,
+  CANTONESE_MACAU,
 };

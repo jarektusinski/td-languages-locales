@@ -2,5 +2,5 @@
 const STANDARD = 'li-NL' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

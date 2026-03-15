@@ -2,5 +2,5 @@
 const STANDARD = 'xh-ZA' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

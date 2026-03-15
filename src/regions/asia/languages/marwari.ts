@@ -2,5 +2,5 @@
 const STANDARD = 'mwr-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

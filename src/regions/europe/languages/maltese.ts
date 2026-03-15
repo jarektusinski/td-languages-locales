@@ -2,5 +2,5 @@
 const STANDARD = 'mt-MT' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

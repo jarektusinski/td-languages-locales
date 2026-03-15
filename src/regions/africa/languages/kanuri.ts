@@ -2,5 +2,5 @@
 const STANDARD = 'kr-NG' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -5,6 +5,6 @@ const PASHTO_AFGHANISTAN = 'ps-AF' as const;
 const PASHTO_PAKISTAN = 'ps-PK' as const;
 
 export default {
-    PASHTO_AFGHANISTAN,
-    PASHTO_PAKISTAN,
+  PASHTO_AFGHANISTAN,
+  PASHTO_PAKISTAN,
 };

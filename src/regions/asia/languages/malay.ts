@@ -8,7 +8,7 @@ const MALAY_SINGAPORE = 'ms-SG' as const;
 const MALAY_BRUNEI = 'ms-BN' as const;
 
 export default {
-    MALAY_MALAYSIA,
-    MALAY_SINGAPORE,
-    MALAY_BRUNEI,
+  MALAY_MALAYSIA,
+  MALAY_SINGAPORE,
+  MALAY_BRUNEI,
 };

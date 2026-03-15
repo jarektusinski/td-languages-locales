@@ -15,13 +15,13 @@ const TAHITIAN_LANGUAGES = [...Object.values(Tahitian)] as const;
 const TONGAN_LANGUAGES = [...Object.values(Tongan)] as const;
 const TUVALU_LANGUAGES = [...Object.values(Tuvalu)] as const;
 const OCEANIA_LANGUAGES = [
-    ...ENGLISH_LANGUAGES,
-    ...FIJIAN_LANGUAGES,
-    ...MAORI_LANGUAGES,
-    ...SAMOAN_LANGUAGES,
-    ...TAHITIAN_LANGUAGES,
-    ...TONGAN_LANGUAGES,
-    ...TUVALU_LANGUAGES
+  ...ENGLISH_LANGUAGES,
+  ...FIJIAN_LANGUAGES,
+  ...MAORI_LANGUAGES,
+  ...SAMOAN_LANGUAGES,
+  ...TAHITIAN_LANGUAGES,
+  ...TONGAN_LANGUAGES,
+  ...TUVALU_LANGUAGES,
 ] as const;
 
 type OceanianEnglishLanguage = (typeof ENGLISH_LANGUAGES)[number];

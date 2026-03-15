@@ -5,6 +5,6 @@ const AZERBAIJANI_LATIN = 'az-Latn-AZ' as const;
 const AZERBAIJANI_CYRILLIC = 'az-Cyrl-AZ' as const;
 
 export default {
-    AZERBAIJANI_LATIN,
-    AZERBAIJANI_CYRILLIC,
+  AZERBAIJANI_LATIN,
+  AZERBAIJANI_CYRILLIC,
 };

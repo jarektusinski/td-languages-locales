@@ -8,7 +8,7 @@ const TAMIL_SRI_LANKA = 'ta-LK' as const;
 const TAMIL_SINGAPORE = 'ta-SG' as const;
 
 export default {
-    TAMIL_INDIA,
-    TAMIL_SRI_LANKA,
-    TAMIL_SINGAPORE,
+  TAMIL_INDIA,
+  TAMIL_SRI_LANKA,
+  TAMIL_SINGAPORE,
 };

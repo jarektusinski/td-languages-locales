@@ -2,5 +2,5 @@
 const STANDARD = 'ace-ID' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

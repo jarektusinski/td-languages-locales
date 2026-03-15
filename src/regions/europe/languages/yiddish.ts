@@ -2,5 +2,5 @@
 const YIDDISH_ASHKENAZI = 'yi-001' as const;
 
 export default {
-    YIDDISH_ASHKENAZI,
+  YIDDISH_ASHKENAZI,
 };

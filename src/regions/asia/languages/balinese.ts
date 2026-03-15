@@ -2,5 +2,5 @@
 const STANDARD = 'ban-ID' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

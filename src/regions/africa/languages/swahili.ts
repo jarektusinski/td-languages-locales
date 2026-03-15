@@ -11,8 +11,8 @@ const SWAHILI_UGANDA = 'sw-UG' as const;
 const SWAHILI_DRC = 'sw-CD' as const;
 
 export default {
-    SWAHILI_TANZANIA,
-    SWAHILI_KENYA,
-    SWAHILI_UGANDA,
-    SWAHILI_DRC,
+  SWAHILI_TANZANIA,
+  SWAHILI_KENYA,
+  SWAHILI_UGANDA,
+  SWAHILI_DRC,
 };

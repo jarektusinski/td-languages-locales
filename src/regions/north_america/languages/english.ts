@@ -17,10 +17,10 @@ const BELIZE = 'en-BZ' as const;
 const BAHAMAS = 'en-BS' as const;
 
 export default {
-    AMERICAN,
-    CANADIAN,
-    JAMAICAN,
-    TRINIDAD_AND_TOBAGO,
-    BELIZE,
-    BAHAMAS,
+  AMERICAN,
+  CANADIAN,
+  JAMAICAN,
+  TRINIDAD_AND_TOBAGO,
+  BELIZE,
+  BAHAMAS,
 };

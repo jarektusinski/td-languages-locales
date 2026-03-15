@@ -2,5 +2,5 @@
 const STANDARD = 'so-SO' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

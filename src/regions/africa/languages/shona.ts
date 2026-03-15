@@ -2,5 +2,5 @@
 const STANDARD = 'sn-ZW' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -8,7 +8,7 @@ const HAUSA_NIGER = 'ha-NE' as const;
 const HAUSA_GHANA = 'ha-GH' as const;
 
 export default {
-    HAUSA_NIGERIA,
-    HAUSA_NIGER,
-    HAUSA_GHANA,
+  HAUSA_NIGERIA,
+  HAUSA_NIGER,
+  HAUSA_GHANA,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'ml-IN' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

@@ -2,5 +2,5 @@
 const STANDARD = 'da-DK' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };

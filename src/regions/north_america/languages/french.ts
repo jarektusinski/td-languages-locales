@@ -5,6 +5,6 @@ const FRENCH_CANADA = 'fr-CA' as const;
 const FRENCH_HAITI = 'fr-HT' as const;
 
 export default {
-    FRENCH_CANADA,
-    FRENCH_HAITI,
+  FRENCH_CANADA,
+  FRENCH_HAITI,
 };

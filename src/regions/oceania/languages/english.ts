@@ -14,9 +14,9 @@ const FIJI = 'en-FJ' as const;
 const SOLOMON_ISLANDS = 'en-SB' as const;
 
 export default {
-    AUSTRALIAN,
-    NEW_ZEALAND,
-    PAPUA_NEW_GUINEA,
-    FIJI,
-    SOLOMON_ISLANDS,
+  AUSTRALIAN,
+  NEW_ZEALAND,
+  PAPUA_NEW_GUINEA,
+  FIJI,
+  SOLOMON_ISLANDS,
 };

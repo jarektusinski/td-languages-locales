@@ -2,5 +2,5 @@
 const STANDARD = 'kam-KE' as const;
 
 export default {
-    STANDARD,
+  STANDARD,
 };
