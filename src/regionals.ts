@@ -11,6 +11,13 @@ import FrenchNorthAmerica from './regions/north_america/languages/french';
 import SpanishEurope from './regions/europe/languages/spanish';
 import SpanishNorthAmerica from './regions/north_america/languages/spanish';
 import SpanishSouthAmerica from './regions/south_america/languages/spanish';
+import AfricaRegionals from './regions/africa/africa';
+import AsiaRegionals from './regions/asia/asia';
+import EuropeRegionals from './regions/europe/europe';
+import MiddleEastRegionals from './regions/middle_east/middle_east';
+import NorthAmericaRegionals from './regions/north_america/north_america';
+import OceaniaRegionals from './regions/oceania/oceania';
+import SouthAmericaRegionals from './regions/south_america/south_america';
 
 /** @internal */
 const ALL_ARABIC_LANGUAGES = [
@@ -61,12 +68,44 @@ const SPANISH_LANGUAGES = ALL_SPANISH_LANGUAGES as ReadonlyArray<
 >;
 type SpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
 
+/** @internal */
+const ALL_REGIONS = [
+  ...AfricaRegionals.AFRICA_LANGUAGES,
+  ...AsiaRegionals.ASIA_LANGUAGES,
+  ...EuropeRegionals.EUROPE_LANGUAGES,
+  ...MiddleEastRegionals.MIDDLE_EAST_LANGUAGES,
+  ...NorthAmericaRegionals.NORTH_AMERICA_LANGUAGES,
+  ...OceaniaRegionals.OCEANIA_LANGUAGES,
+  ...SouthAmericaRegionals.SOUTH_AMERICA_LANGUAGES,
+].sort();
+
+const REGIONALS_LANGUAGES = ALL_REGIONS as ReadonlyArray<(typeof ALL_REGIONS)[number]>;
+
+type RegionalLanguage = (typeof REGIONALS_LANGUAGES)[number];
+
+type MultiRegionalLanguage = RegionalLanguage | [RegionalLanguage, ...RegionalLanguage[]];
+
+const REGIONS = [
+  'Africa',
+  'Asia',
+  'Europe',
+  'Middle East',
+  'North America',
+  'Oceania',
+  'South America',
+] as const;
+
+type Region = (typeof REGIONS)[number];
+
 export type {
   ArabicLanguage,
   PortugueseLanguage,
   EnglishLanguage,
   FrenchLanguage,
   SpanishLanguage,
+  RegionalLanguage,
+  MultiRegionalLanguage,
+  Region,
 };
 
 export default {
@@ -75,4 +114,6 @@ export default {
   ENGLISH_LANGUAGES,
   FRENCH_LANGUAGES,
   SPANISH_LANGUAGES,
+  REGIONALS_LANGUAGES,
+  REGIONS,
 };

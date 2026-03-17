@@ -1,35 +1,18 @@
 import Regionals from './regionals';
-import Africa from './regions/africa';
-import Asia from './regions/asia';
-import Europe from './regions/europe';
-import MiddleEast from './regions/middle_east';
-import NorthAmerica from './regions/north_america';
-import Oceania from './regions/oceania';
-import SouthAmerica from './regions/south_america';
-import AfricaRegionals from './regions/africa/africa';
-import AsiaRegionals from './regions/asia/asia';
-import EuropeRegionals from './regions/europe/europe';
-import MiddleEastRegionals from './regions/middle_east/middle_east';
-import NorthAmericaRegionals from './regions/north_america/north_america';
-import OceaniaRegionals from './regions/oceania/oceania';
-import SouthAmericaRegionals from './regions/south_america/south_america';
-
-/** @internal */
-const ALL_REGIONS = [
-  ...AfricaRegionals.AFRICA_LANGUAGES,
-  ...AsiaRegionals.ASIA_LANGUAGES,
-  ...EuropeRegionals.EUROPE_LANGUAGES,
-  ...MiddleEastRegionals.MIDDLE_EAST_LANGUAGES,
-  ...NorthAmericaRegionals.NORTH_AMERICA_LANGUAGES,
-  ...OceaniaRegionals.OCEANIA_LANGUAGES,
-  ...SouthAmericaRegionals.SOUTH_AMERICA_LANGUAGES,
-].sort();
-
-const REGIONALS_LANGUAGES = ALL_REGIONS as ReadonlyArray<(typeof ALL_REGIONS)[number]>;
-
-type RegionalLanguage = (typeof REGIONALS_LANGUAGES)[number];
-
-export type { RegionalLanguage };
+import AfricaRegionals from './regions/africa';
+import AsiaRegionals from './regions/asia';
+import EuropeRegionals from './regions/europe';
+import MiddleEastRegionals from './regions/middle_east';
+import NorthAmericaRegionals from './regions/north_america';
+import OceaniaRegionals from './regions/oceania';
+import SouthAmericaRegionals from './regions/south_america';
+import Africa from './regions/africa/africa';
+import Asia from './regions/asia/asia';
+import Europe from './regions/europe/europe';
+import MiddleEast from './regions/middle_east/middle_east';
+import NorthAmerica from './regions/north_america/north_america';
+import Oceania from './regions/oceania/oceania';
+import SouthAmerica from './regions/south_america/south_america';
 
 export type {
   AfricaAfrikaansLanguage,
@@ -265,7 +248,6 @@ export type {
   NorthAmericaNavajoLanguage,
   NorthAmericaOjibweLanguage,
   NorthAmericaSpanishLanguage,
-  NorthAmericaYucatecMayaLanguage,
   NorthAmericaZapotecLanguage,
   NorthAmericaLanguage,
 } from './regions/north_america/north_america';
@@ -301,19 +283,18 @@ export type {
 
 export default {
   ...Regionals,
-  ...Africa,
-  ...Asia,
-  ...Europe,
-  ...MiddleEast,
-  ...NorthAmerica,
-  ...Oceania,
-  ...SouthAmerica,
-  AfricaRegionals,
-  AsiaRegionals,
-  EuropeRegionals,
-  MiddleEastRegionals,
-  NorthAmericaRegionals,
-  OceaniaRegionals,
-  SouthAmericaRegionals,
-  REGIONALS_LANGUAGES,
+  ...AfricaRegionals,
+  ...AsiaRegionals,
+  ...EuropeRegionals,
+  ...MiddleEastRegionals,
+  ...NorthAmericaRegionals,
+  ...OceaniaRegionals,
+  ...SouthAmericaRegionals,
+  Africa,
+  Asia,
+  Europe,
+  MiddleEast,
+  NorthAmerica,
+  Oceania,
+  SouthAmerica,
 };

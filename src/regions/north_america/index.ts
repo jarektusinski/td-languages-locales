@@ -10,7 +10,6 @@ import Nahuatl from './languages/nahuatl';
 import Navajo from './languages/navajo';
 import Ojibwe from './languages/ojibwe';
 import Spanish from './languages/spanish';
-import Yucatec_Maya from './languages/yucatec_maya';
 import Zapotec from './languages/zapotec';
 
 export default {
@@ -26,6 +25,5 @@ export default {
   Navajo,
   Ojibwe,
   Spanish,
-  Yucatec_Maya,
   Zapotec,
 };
