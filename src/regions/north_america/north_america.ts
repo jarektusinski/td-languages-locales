@@ -10,7 +10,6 @@ import Nahuatl from './languages/nahuatl';
 import Navajo from './languages/navajo';
 import Ojibwe from './languages/ojibwe';
 import Spanish from './languages/spanish';
-import YucatecMaya from './languages/yucatec_maya';
 import Zapotec from './languages/zapotec';
 
 const CREE_LANGUAGES = [...Object.values(Cree)] as const;
@@ -25,7 +24,6 @@ const NAHUATL_LANGUAGES = [...Object.values(Nahuatl)] as const;
 const NAVAJO_LANGUAGES = [...Object.values(Navajo)] as const;
 const OJIBWE_LANGUAGES = [...Object.values(Ojibwe)] as const;
 const SPANISH_LANGUAGES = [...Object.values(Spanish)] as const;
-const YUCATECMAYA_LANGUAGES = [...Object.values(YucatecMaya)] as const;
 const ZAPOTEC_LANGUAGES = [...Object.values(Zapotec)] as const;
 const NORTH_AMERICA_LANGUAGES = [
   ...CREE_LANGUAGES,
@@ -40,7 +38,6 @@ const NORTH_AMERICA_LANGUAGES = [
   ...NAVAJO_LANGUAGES,
   ...OJIBWE_LANGUAGES,
   ...SPANISH_LANGUAGES,
-  ...YUCATECMAYA_LANGUAGES,
   ...ZAPOTEC_LANGUAGES,
 ] as const;
 
@@ -56,7 +53,6 @@ type NorthAmericaNahuatlLanguage = (typeof NAHUATL_LANGUAGES)[number];
 type NorthAmericaNavajoLanguage = (typeof NAVAJO_LANGUAGES)[number];
 type NorthAmericaOjibweLanguage = (typeof OJIBWE_LANGUAGES)[number];
 type NorthAmericaSpanishLanguage = (typeof SPANISH_LANGUAGES)[number];
-type NorthAmericaYucatecMayaLanguage = (typeof YUCATECMAYA_LANGUAGES)[number];
 type NorthAmericaZapotecLanguage = (typeof ZAPOTEC_LANGUAGES)[number];
 type NorthAmericaLanguage = (typeof NORTH_AMERICA_LANGUAGES)[number];
 
@@ -73,7 +69,6 @@ export type {
   NorthAmericaNavajoLanguage,
   NorthAmericaOjibweLanguage,
   NorthAmericaSpanishLanguage,
-  NorthAmericaYucatecMayaLanguage,
   NorthAmericaZapotecLanguage,
   NorthAmericaLanguage,
 };
@@ -91,7 +86,6 @@ export default {
   ...Navajo,
   ...Ojibwe,
   ...Spanish,
-  ...YucatecMaya,
   ...Zapotec,
   CREE_LANGUAGES,
   ENGLISH_LANGUAGES,
@@ -105,7 +99,6 @@ export default {
   NAVAJO_LANGUAGES,
   OJIBWE_LANGUAGES,
   SPANISH_LANGUAGES,
-  YUCATECMAYA_LANGUAGES,
   ZAPOTEC_LANGUAGES,
   NORTH_AMERICA_LANGUAGES,
 };
