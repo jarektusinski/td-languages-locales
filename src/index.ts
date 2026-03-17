@@ -279,6 +279,9 @@ export type {
   EnglishLanguage,
   FrenchLanguage,
   SpanishLanguage,
+  RegionalLanguage,
+  MultiRegionalLanguage,
+  Region,
 } from './regionals';
 
 export default {
